@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Todo List App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <p id="p1">Hello World!</p>
+    <h1 id="id01">Old Heading</h1> -->
+
+    <!-- <h1>Event Example</h1> -->
+    <!-- <button id="myButton">Click Me</button> -->
+    <!-- <button id = 'myButton' onclick=handleClick()>Click Me</button>
+
+    <h1>Change CSS Styles Example</h1>
+    <div id="myDiv" class="myDiv">This is a div</div>
+    <button onclick="changeColor()">Change Color</button> -->
+
+    <!-- <h1>Add Element Example</h1>
+    <div id="container"> -->
+        <!-- New elements will be appended here -->
+    <!-- </div>
+    <button id="addButton">Add Element</button> -->
+
+    <!-- <h1>Remove Element Example</h1>
+    <div id="container">
+        <p>This is the paragraph to be removed.</p>
+    </div>
+    <button id="removeButton">Remove Element</button> -->
+
+    <!-- <div class="todo-container">
+        <h1>Todo List</h1>
+        <input type="text" id="todo-input" placeholder="Enter a task">
+        <button onclick="addTodo()">Add</button>
+        <ul id="todo-list"></ul>
+    </div> -->
+
+<form id="myForm" onsubmit="return validateForm()">
+    <h1>Form Validation Example</h1>
+    <!-- Input for Email -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <span id="emailError" class="error"></span><br><br>
+
+    <!-- Input for Password -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <span id="passwordError" class="error"></span><br><br>
+
+    <!-- Input for Name -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <span id="nameError" class="error"></span><br><br>
+
+    <!-- Select Dropdown for Gender -->
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select>
+    <span id="genderError" class="error"></span><br><br>
+
+    <!-- Input for Age -->
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age">
+    <span id="ageError" class="error"></span><br><br>
+
+    <!-- Submit Button -->
+    <button type="submit">Submit</button>
+</form>
+<script src="main.js"></script>
+</body>
+</html>
